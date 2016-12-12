@@ -1,0 +1,20 @@
+{
+  "name": "web-spider-wenku8-konosuba",
+  "version": "0.1.0",
+  "description": "web spider",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "zccz143",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "co": "^4.6.0",
+    "left-pad": "^1.1.3",
+    "superagent": "^3.2.1",
+    "superagent-charset": "^1.1.1",
+    "superagent-retry": "^0.6.0"
+  }
+}
